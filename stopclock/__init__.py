@@ -25,8 +25,6 @@ class Split(object):
     """A *immutable* stopwatch split.
 
     See: http://en.wikipedia.org/wiki/Stopwatch for what this is/represents.
-
-    .. versionadded:: 1.4
     """
 
     __slots__ = ['_elapsed', '_length']
@@ -66,8 +64,6 @@ class Watch(object):
     depending on operating system and python version).
 
     .. _monotonic: https://pypi.org/project/monotonic/
-
-    .. versionadded:: 1.4
     """
     _STARTED = 'STARTED'
     _STOPPED = 'STOPPED'
